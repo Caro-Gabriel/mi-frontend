@@ -1,5 +1,5 @@
 // Cuando hagas deploy, reemplazá esta URL por la de Render
-const API = 'http://localhost:3001';
+const API = 'https://mi-backend-uemp.onrender.com';
 
 async function cargarTareas() {
   const res = await fetch(`${API}/tasks`);
